@@ -1,0 +1,51 @@
+# 虚拟环境
+venv/
+.env/
+.env.local
+.env.production
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# 模型文件（大文件不上传）
+models/
+*.pt
+*.bin
+*.onnx
+.cache/
+
+# 临时文件
+*.tmp
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# 测试文件
+test_audio/
+output/
+
+# 编辑器配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 构建输出
+dist/
+build/
+*.egg-info/
+
+# CUDA 相关
+*.cu
+*.cuh
+*.ptx
+
+# 日志文件
+logs/
+*.log
